@@ -1,8 +1,8 @@
 import streamlit as st
 import pandas as pd
 
-from src.feature_extraction import extract_experience, extract_skills, extract_languages
-from src.scoring import compute_score
+from feature_extraction import extract_experience, extract_skills, extract_languages
+from scoring import compute_score
 
 st.title("AI CV Screening Agent")
 
